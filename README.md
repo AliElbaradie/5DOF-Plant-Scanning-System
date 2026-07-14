@@ -71,10 +71,20 @@ I was responsible for the embedded systems and electronics development, includin
 - Pan and Tilt camera mount
 - Aluminum profile test bench
 
+<p align="center">
+<img src="images/system_overview_1.jpg" width="32%">
+<img src="images/system_overview_2.jpg" width="32%">
+<img src="images/system_overview_3.jpg" width="32%">
+</p>
+
 ### Microcontroller
 
 - Arduino Mega 2560
 - USB serial communication
+
+<p align="center">
+<img src="images/arduino_mega_2560.png" width="35%">
+</p>
 
 ### Motors
 
@@ -82,18 +92,38 @@ I was responsible for the embedded systems and electronics development, includin
 - 1 × Dual-shaft NEMA 23 stepper motor with electromagnetic brake (Z)
 - 2 × NEMA 17 stepper motors (Pan/Tilt)
 
+<p align="center">
+<img src="images/nema23_stepper_motor_x.jpg" width="32%">
+<img src="images/nema23_stepper_motor_z.jpg" width="32%">
+<img src="images/nema17_stepper_motors.jpg" width="32%">
+</p>
+
 ### Motor Drivers
 
 - 5 × DM542T stepper motor drivers
+
+<p align="center">
+<img src="images/dm542t_driver.png" width="45%">
+</p>
 
 ### Power Supply
 
 - 24 V DC power supply
 
+<p align="center">
+<img src="images/power_supply.png" width="45%">
+</p>
+
 ### Sensors
 
 - Hall-effect limit switches
 - Mechanical limit switches
+
+<p align="center">
+<img src="images/hall_effect_sensor.jpg" width="32%">
+<img src="images/mechanical_limit_switch.jpg" width="32%">
+<img src="images/sensor_mount.jpg" width="32%">
+</p>
 
 ### Mechanical Components
 
@@ -103,6 +133,20 @@ I was responsible for the embedded systems and electronics development, includin
 - Cable drag chains
 - Spiral cable protection
 - Custom 3D-printed sensor mounts
+
+---
+
+---
+
+## Hardware Architecture
+
+The following diagram illustrates the electrical architecture and wiring of the motion control system.
+
+<p align="center">
+<img src="images/hardware_architecture.png" width="90%">
+</p>
+
+The diagram shows the connection between the Arduino Mega 2560, DM542T stepper motor drivers, stepper motors, limit switches, and the 24 V power supply.
 
 ---
 
@@ -135,40 +179,21 @@ I was responsible for the embedded systems and electronics development, includin
 
 ## Processing GUI
 
-The Processing application provides a graphical user interface for controlling the five motion axes of the platform. It allows users to specify movement distances and angles, communicates with the Arduino via USB serial communication and simplifies manual positioning of the camera system.
+The Processing application provides a graphical user interface (GUI) for controlling the five motion axes of the platform. Users can specify movement distances and rotation angles, while communication with the Arduino Mega is handled via USB serial communication.
+
+The indicators on the right side of the interface continuously display the current position of each motor in real time, allowing users to monitor the system state and verify the executed movements during operation.
 
 The screenshot below shows the **final GUI** developed during the project.
 
-![Processing GUI](images/gui.png)
+<p align="center">
+<img src="images/processing_gui.png" width="90%">
+</p>
 
 > **Note**
 >
 > The repository contains the latest available source code. The GUI shown in the screenshot represents the final version demonstrated during the project, while the available Processing source code corresponds to an earlier development stage.
 
 ---
-
-## Images
-
-### Complete System
-
-![Complete System](images/system_overview.jpg)
-
-### Motion Platform
-
-![Motion Platform](images/motion_platform.jpg)
-
-### Hardware Architecture
-
-![Hardware Architecture](images/hardware_architecture.png)
-
-### Electronics
-
-![Electronics](images/electronics.jpg)
-
-### Custom Sensor Mount
-
-![Sensor Mount](images/sensor_mount.jpg)
-
 ---
 
 ## Repository Structure
@@ -188,12 +213,20 @@ The screenshot below shows the **final GUI** developed during the project.
 │   └── Project_Report.pdf
 │
 └── images/
-    ├── system_overview.jpg
-    ├── motion_platform.jpg
-    ├── hardware_architecture.png
-    ├── electronics.jpg
-    ├── gui.png
-    └── sensor_mount.jpg
+    ├── system_overview_1.jpg
+    ├── system_overview_2.jpg
+    ├── system_overview_3.jpg
+    ├── arduino_mega_2560.png
+    ├── nema23_stepper_motor_x.jpg
+    ├── nema23_stepper_motor_z.jpg
+    ├── nema17_stepper_motors.jpg
+    ├── dm542t_driver.png
+    ├── power_supply.png
+    ├── hall_effect_sensor.jpg
+    ├── mechanical_limit_switch.jpg
+    ├── sensor_mount.jpg
+    ├── processing_gui.png
+    └── hardware_architecture.png
 ```
 
 ---
@@ -211,4 +244,5 @@ The complete project report is available in the **docs** folder.
 **Ali Elbaradie**
 
 M.Sc. Mechanical Engineering (Mechatronics)  
+University of Duisburg-Esseneering (Mechatronics)  
 University of Duisburg-Essen
