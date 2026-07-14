@@ -93,7 +93,7 @@ I was responsible for the embedded systems and electronics development, includin
 - 2 × NEMA 17 stepper motors (Pan/Tilt)
 
 <p align="center">
-<img src="images/nema23_stepper_motor_x.jpg" width="20%">
+<img src="images/nema23_stepper_motor_x.jpg" width="19%">
 <img src="images/nema23_stepper_motor_z.jpg" width="32%">
 <img src="images/nema17_stepper_motors.jpg" width="32%">
 </p>
