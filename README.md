@@ -72,9 +72,9 @@ I was responsible for the embedded systems and electronics development, includin
 - Aluminum profile test bench
 
 <p align="center">
-<img src="images/system_overview_1.jpg" width="16%">
-<img src="images/system_overview_2.jpg" width="16%">
-<img src="images/system_overview_3.jpg" width="16%">
+<img src="images/system_overview_1.jpg.jpg" width="32%">
+<img src="images/system_overview_2.jpg.jpg" width="32%">
+<img src="images/system_overview_3.jpg.jpg" width="32%">
 </p>
 
 ### Microcontroller
@@ -93,7 +93,7 @@ I was responsible for the embedded systems and electronics development, includin
 - 2 × NEMA 17 stepper motors (Pan/Tilt)
 
 <p align="center">
-<img src="images/nema23_stepper_motor_x.jpg" width="16%">
+<img src="images/nema23_stepper_motor_x.jpg" width="22%">
 <img src="images/nema23_stepper_motor_z.jpg" width="32%">
 <img src="images/nema17_stepper_motors.jpg" width="32%">
 </p>
@@ -103,7 +103,7 @@ I was responsible for the embedded systems and electronics development, includin
 - 5 × DM542T stepper motor drivers
 
 <p align="center">
-<img src="images/dm542t_driver.png" width="32%">
+<img src="images/dm542t_driver.png" width="22%">
 </p>
 
 ### Power Supply
@@ -111,7 +111,7 @@ I was responsible for the embedded systems and electronics development, includin
 - 24 V DC power supply
 
 <p align="center">
-<img src="images/power_supply.png" width="45%">
+<img src="images/power_supply.png" width="32%">
 </p>
 
 ### Sensors
@@ -120,9 +120,9 @@ I was responsible for the embedded systems and electronics development, includin
 - Mechanical limit switches
 
 <p align="center">
-<img src="images/hall_effect_sensor.jpg" width="16%">
-<img src="images/mechanical_limit_switch.jpg" width="16%">
-<img src="images/sensor_mount.jpg" width="16%">
+<img src="images/hall_effect_sensor.png" width="32%">
+<img src="images/mechanical_limit_switch.png" width="32%">
+<img src="images/sensor_mount.png" width="32%">
 </p>
 
 ### Mechanical Components
