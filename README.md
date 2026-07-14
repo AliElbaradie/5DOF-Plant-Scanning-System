@@ -72,9 +72,9 @@ I was responsible for the embedded systems and electronics development, includin
 - Aluminum profile test bench
 
 <p align="center">
-<img src="images/system_overview_1.jpg" width="32%">
-<img src="images/system_overview_2.jpg" width="32%">
-<img src="images/system_overview_3.jpg" width="32%">
+<img src="images/system_overview_1.jpg" width="16%">
+<img src="images/system_overview_2.jpg" width="16%">
+<img src="images/system_overview_3.jpg" width="16%">
 </p>
 
 ### Microcontroller
@@ -93,7 +93,7 @@ I was responsible for the embedded systems and electronics development, includin
 - 2 × NEMA 17 stepper motors (Pan/Tilt)
 
 <p align="center">
-<img src="images/nema23_stepper_motor_x.jpg" width="32%">
+<img src="images/nema23_stepper_motor_x.jpg" width="16%">
 <img src="images/nema23_stepper_motor_z.jpg" width="32%">
 <img src="images/nema17_stepper_motors.jpg" width="32%">
 </p>
@@ -103,7 +103,7 @@ I was responsible for the embedded systems and electronics development, includin
 - 5 × DM542T stepper motor drivers
 
 <p align="center">
-<img src="images/dm542t_driver.png" width="45%">
+<img src="images/dm542t_driver.png" width="32%">
 </p>
 
 ### Power Supply
@@ -120,9 +120,9 @@ I was responsible for the embedded systems and electronics development, includin
 - Mechanical limit switches
 
 <p align="center">
-<img src="images/hall_effect_sensor.jpg" width="32%">
-<img src="images/mechanical_limit_switch.jpg" width="32%">
-<img src="images/sensor_mount.jpg" width="32%">
+<img src="images/hall_effect_sensor.jpg" width="16%">
+<img src="images/mechanical_limit_switch.jpg" width="16%">
+<img src="images/sensor_mount.jpg" width="16%">
 </p>
 
 ### Mechanical Components
@@ -143,7 +143,7 @@ I was responsible for the embedded systems and electronics development, includin
 The following diagram illustrates the electrical architecture and wiring of the motion control system.
 
 <p align="center">
-<img src="images/hardware_architecture.png" width="90%">
+<img src="images/hardware_architecture.png" width="70%">
 </p>
 
 The diagram shows the connection between the Arduino Mega 2560, DM542T stepper motor drivers, stepper motors, limit switches, and the 24 V power supply.
@@ -186,7 +186,7 @@ The indicators on the right side of the interface continuously display the curre
 The screenshot below shows the **final GUI** developed during the project.
 
 <p align="center">
-<img src="images/processing_gui.png" width="90%">
+<img src="images/processing_gui.png" width="70%">
 </p>
 
 > **Note**
