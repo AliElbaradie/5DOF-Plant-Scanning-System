@@ -193,15 +193,21 @@ The screenshot below shows the **final GUI** developed during the project.
 
 ---
 
-## Project Demonstration
+## Motion Demonstration
 
-The videos below demonstrate the operation of the 5-DOF camera positioning system.
+The following videos demonstrate the motion of each degree of freedom (DOF) of the developed 5-DOF camera positioning system.
 
 - 🎥 [X-Axis Motion](videos/x_axis_motion.mp4)
 - 🎥 [Y-Axis Motion](videos/y_axis_motion.mp4)
 - 🎥 [Z-Axis Motion](videos/z_axis_motion.mp4)
-- 🎥 [Tilt Camera Motion](videos/camera_tilt_motion.mp4)
-- 🎥 [Pan Camera Motion](videos/camera_pan_motion.mp4)
+- 🎥 [Tilt Camera Motion](videos/tilt_camera_motion.mp4)
+- 🎥 [Pan Camera Motion](videos/pan_camera_motion.mp4)
+
+These videos demonstrate the independent motion of each axis and highlight the functionality of the developed embedded control system.
+
+> **Note**
+>
+> The motion speeds shown in the videos were selected according to the project requirements and laboratory testing conditions to ensure safe and reliable system operation during development.
 
 ---
 
@@ -221,21 +227,28 @@ The videos below demonstrate the operation of the 5-DOF camera positioning syste
 ├── docs/
 │   └── Project_Report.pdf
 │
-└── images/
-    ├── system_overview_1.jpg
-    ├── system_overview_2.jpg
-    ├── system_overview_3.jpg
-    ├── arduino_mega_2560.png
-    ├── nema23_stepper_motor_x.jpg
-    ├── nema23_stepper_motor_z.jpg
-    ├── nema17_stepper_motors.jpg
-    ├── dm542t_driver.png
-    ├── power_supply.png
-    ├── hall_effect_sensor.jpg
-    ├── mechanical_limit_switch.jpg
-    ├── sensor_mount.jpg
-    ├── processing_gui.png
-    └── hardware_architecture.png
+├── images/
+│   ├── system_overview_1.jpg
+│   ├── system_overview_2.jpg
+│   ├── system_overview_3.jpg
+│   ├── arduino_mega_2560.png
+│   ├── nema23_stepper_motor_x.jpg
+│   ├── nema23_stepper_motor_z.jpg
+│   ├── nema17_stepper_motors.jpg
+│   ├── dm542t_driver.png
+│   ├── power_supply.png
+│   ├── hall_effect_sensor.jpg
+│   ├── mechanical_limit_switch.jpg
+│   ├── sensor_mount.jpg
+│   ├── processing_gui.png
+│   └── hardware_architecture.png
+│
+└── videos/
+    ├── x_axis_motion.mp4
+    ├── y_axis_motion.mp4
+    ├── z_axis_motion.mp4
+    ├── tilt_camera_motion.mp4
+    └── pan_camera_motion.mp4
 ```
 
 ---
