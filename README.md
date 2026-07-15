@@ -266,5 +266,4 @@ The complete project report is available in the **docs** folder.
 **Ali Elbaradie**
 
 M.Sc. Mechanical Engineering (Mechatronics)  
-University of Duisburg-Esseneering (Mechatronics)  
 University of Duisburg-Essen
