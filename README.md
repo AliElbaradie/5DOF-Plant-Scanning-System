@@ -257,7 +257,7 @@ These videos demonstrate the independent motion of each axis and highlight the f
 
 The complete project report is available in the **docs** folder.
 
-📄 [Project Report (PDF)](docs/Project_Report.pdf)
+📄 [Project Report (PDF)](docs/project_report.pdf)
 
 ---
 
