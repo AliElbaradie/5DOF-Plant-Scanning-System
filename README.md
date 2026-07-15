@@ -136,8 +136,6 @@ I was responsible for the embedded systems and electronics development, includin
 
 ---
 
----
-
 ## Hardware Architecture
 
 The following diagram illustrates the electrical architecture and wiring of the motion control system.
