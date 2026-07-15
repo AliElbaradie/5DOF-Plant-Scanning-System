@@ -23,7 +23,7 @@ My primary responsibility was the **embedded systems development and hardware in
 I was responsible for the embedded systems and electronics development, including:
 
 - Development of the Arduino software for five-axis motion control
-- Development of the Processing-based graphical user interface (GUI)
+- Development of a Java-based graphical user interface using Processing
 - Serial communication between the PC and Arduino
 - Stepper motor control
 - Integration of motor drivers, power supply and sensors
@@ -152,8 +152,8 @@ The diagram shows the connection between the Arduino Mega 2560, DM542T stepper m
 
 ### Programming
 
-- Arduino (C/C++)
-- Processing
+- C/C++ (Arduino)
+- Java (Processing)
 
 ### Embedded Systems
 
@@ -177,9 +177,9 @@ The diagram shows the connection between the Arduino Mega 2560, DM542T stepper m
 
 ## Processing GUI
 
-The Processing application provides a graphical user interface (GUI) for controlling the five motion axes of the platform. Users can specify movement distances and rotation angles, while communication with the Arduino Mega is handled via USB serial communication.
+The graphical user interface was developed in **Processing (Java)** and provides intuitive control of the five motion axes. It communicates with the Arduino Mega via USB serial communication, allowing users to specify movement distances and rotation angles.
 
-The indicators on the right side of the interface continuously display the current position of each motor in real time, allowing users to monitor the system state and verify the executed movements during operation.
+The indicators on the right side of the interface continuously display the current position of each motor in real time, allowing users to monitor the system state and verify executed movements during operation.
 
 The screenshot below shows the **final GUI** developed during the project.
 
@@ -192,6 +192,17 @@ The screenshot below shows the **final GUI** developed during the project.
 > The repository contains the latest available source code. The GUI shown in the screenshot represents the final version demonstrated during the project, while the available Processing source code corresponds to an earlier development stage.
 
 ---
+
+## Project Demonstration
+
+The videos below demonstrate the operation of the 5-DOF camera positioning system.
+
+- 🎥 [X-Axis Motion](videos/x_axis_motion.mp4)
+- 🎥 [Y-Axis Motion](videos/y_axis_motion.mp4)
+- 🎥 [Z-Axis Motion](videos/z_axis_motion.mp4)
+- 🎥 [Tilt Camera Motion](videos/camera_tilt_motion.mp4)
+- 🎥 [Pan Camera Motion](videos/camera_pan_motion.mp4)
+
 ---
 
 ## Repository Structure
